@@ -1,0 +1,20 @@
+a=input("Diwali cupon code")
+bill=input()
+sum=0
+
+if (bill>3000):
+  tax=5/100*3000
+  tax=tax+bill
+elif (bill>2000):
+    tax=7/100*2000
+    tax=tax+bill
+elif (bill>1000):
+    tax=10/100*1000
+    tax=tax+bill
+elif (bill>500):
+    tax=15/100*500
+    tax=tax+bill
+else:
+    print("no discount")
+    
+
