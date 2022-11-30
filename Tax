@@ -1,0 +1,29 @@
+Groceries=input("Enter 5 grocerie names")
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+cost=input("Enter the cost of groceries")
+atta=input()
+maida=input()
+flour=input()
+dal=input()
+moongdal=input()
+bill=atta+maida+flour+dal+moongdal
+if (bill>3000):
+  tax=5/100*3000
+  tax=tax+bill
+elif (bill>2000):
+    tax=7/100*2000
+    tax=tax+bill
+elif (bill>1000):
+    tax=10/100*1000
+    tax=tax+bill
+elif (bill>500):
+    tax=15/100*500
+    tax=tax+bill
+else:
+    print("100 rupees")
+    
+
